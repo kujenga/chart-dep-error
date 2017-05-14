@@ -1,0 +1,17 @@
+dependencies:
+- condition: ""
+  enabled: false
+  import-values: null
+  name: memcached
+  repository: https://kubernetes-charts.storage.googleapis.com/
+  tags: null
+  version: 0.4.1
+- condition: ""
+  enabled: false
+  import-values: null
+  name: redis
+  repository: https://kubernetes-charts.storage.googleapis.com/
+  tags: null
+  version: 0.5.2
+digest: sha256:e15ece0a233f0bf8d4c4ebf9bc4dceea21e2e6e80fea75de3affa0df9fb668e4
+generated: 2017-05-13T21:25:14.638825554-04:00

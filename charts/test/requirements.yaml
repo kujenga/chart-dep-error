@@ -1,0 +1,9 @@
+dependencies:
+  - name: memcached
+    version: 0.4.1
+    repository: https://kubernetes-charts.storage.googleapis.com/
+    condition: memcached.enabled
+  - name: redis
+    version: 0.5.2
+    repository: https://kubernetes-charts.storage.googleapis.com/
+    condition: redis.enabled
