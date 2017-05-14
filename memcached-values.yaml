@@ -1,0 +1,4 @@
+redis:
+  enabled: false
+memcached:
+  enabled: true
